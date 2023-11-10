@@ -1,0 +1,46 @@
+.sidebar {
+  width: 33.5vh;
+  height: 100%;
+  background-color: #212529;
+  display: flex;
+  flex-direction: column;
+  padding: 2.5vh;
+}
+.acc-box {
+  height: 25vh;
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 2.5vh;
+  background-color: #f2f2f2;
+  display: flex;
+  align-content: center;
+}
+.box {
+  height: 43vh;
+  width: 100%;
+  border-radius: 8px;
+  background-color: #f2f2f2;
+  margin-bottom: 2.5vh;
+  z-index: 5;
+}
+.profile img {
+  margin-top: 10px;
+  margin-left: 83px;
+  height: 100px;
+  display: inline-block;
+  align-items: center;
+}
+#button button {
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  width: 200px;
+  border: none;
+  background-color: #212529;
+  height: 50px;
+  border-radius: 5px;
+  position: absolute;
+  top: 43vh;
+  left: 49px;
+  z-index: 10;
+}
