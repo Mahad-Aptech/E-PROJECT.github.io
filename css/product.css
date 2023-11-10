@@ -1,0 +1,20 @@
+.search {
+  position: absolute;
+  top: 220px;
+  left: 400px;
+  z-index: 10;
+}
+.product-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  z-index: 11;
+}
+.product {
+  background-color: beige;
+  height: 200px;
+  width: 200px;
+  z-index: 12;
+}
+.main {
+}
